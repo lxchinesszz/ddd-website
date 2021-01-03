@@ -1,13 +1,13 @@
 module.exports = {
   title: '领域驱动落地实战',
-  tagline: '治大国如烹小鲜',
+  tagline: '天下代码一大抄,抄来抄去有提高,看你会抄不会抄',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'lxchinesszz', // Usually your GitHub org/user name.
+  projectName: 'ddd-website', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '领域驱动落地',
@@ -23,6 +23,7 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'cli', label: 'CLI', position: 'left'},
         {
           href: 'https://blog.springlearn.cn/',
           label: '作者博客',
@@ -47,20 +48,16 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: '友链',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Java技术栈',
+              href: 'https://java.springlearn.cn/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+              label: '程序猿升级课',
+              href: 'https://blog.springlearn.cn/',
+            }
           ],
         },
         {
@@ -77,7 +74,11 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} DDD for liuxin, 豫ICP备18041471号`,
+    },
+    prism: {
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
     },
   },
   presets: [
@@ -99,6 +100,17 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        cacheTime: 600 * 1000, // 600 sec - cache purge period
+        changefreq: 'weekly',
+        priority: 0.5,
+        trailingSlash: false,
       },
     ],
   ],

@@ -1,37 +1,59 @@
 /* stylelint-disable docusaurus/copyright-header */
 
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+ * index首页中的banner
  */
-
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+    min-height: 500px;
+    background-color: #1b7cf2;
+    background-image: url('../img/background8.png');
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    color: white;
 }
 
 @media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+    .heroBanner {
+        padding: 2rem;
+    }
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+.main {
+  padding-bottom: 40px;
+  background: linear-gradient(#abcbf3, 5%, #fafafa);
+}
+.main > div {
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .main {
+    background: linear-gradient(#abcbf3, 1%, #fafafa);
+  }
+}
+.main img {
+  margin-top: -70px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
 }

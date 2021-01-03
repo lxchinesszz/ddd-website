@@ -1,10 +1,10 @@
 ---
 slug: hello-world
-title: Hello
-author: Endilie Yacop Sucipto
-author_title: Maintainer of Docusaurus
-author_url: https://github.com/endiliey
-author_image_url: https://avatars1.githubusercontent.com/u/17883920?s=460&v=4
+title: 流程编排
+author: lxchinesszz
+author_title: 柳垂江上影，梅谢雪中枝。
+author_url: https://blog.springlearn.cn/
+author_image_url: https://img.springlearn.cn/avatar.jpg
 tags: [hello, docusaurus]
 ---
 
