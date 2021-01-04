@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="" />
+    <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/styles.module.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +82,7 @@
       <updated>1609692031240</updated>
       <workItem from="1609692032403" duration="20000" />
       <workItem from="1609692056253" duration="2592000" />
-      <workItem from="1609762663404" duration="1309000" />
+      <workItem from="1609762663404" duration="6590000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1609694151065</created>
@@ -113,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609764590847</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="页面初始化">
+      <created>1609765288820</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609765288820</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="页面初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面初始化" />
   </component>
 </project>

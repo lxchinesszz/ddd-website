@@ -57,16 +57,16 @@ function Home() {
     const {siteConfig = {}} = context;
     return (
         <Layout
-            title={`Hello from ${siteConfig.title}`}
+            title={`${siteConfig.title}`}
             description="Description will go into a meta tag in <head />">
-            <header className={clsx('hero hero--primary', styles.heroBanner)}>
+            <header className={clsx('hero shadow--lw', styles.heroBanner)}>
                 <div className="container">
                     <h1 className="hero__title">{siteConfig.title}</h1>
                     <p className="hero__subtitle">{siteConfig.tagline}</p>
                     <div className={styles.buttons}>
                         <Link
                             className={clsx(
-                                'button button--outline button--secondary button--lg',
+                                'button button--secondary button--lg',
                                 styles.getStarted,
                             )}
                             to={useBaseUrl('docs/')}>
@@ -92,6 +92,22 @@ function Home() {
                         </div>
                     </section>
                 )}
+
+                <section className={styles.framework}>
+                    {/*hero shadow--lw*/}
+                    <div className="hero hero--primary">
+                        <div className="container">
+                            <h1>分层架构</h1>
+                            <p className="hero__subtitle">明确业务分层架构,定义领域模型,编程不迷茫</p>
+                        </div>
+                    </div>
+                </section>
+                {/*机构图*/}
+                <section className={styles.framework}>
+                    <div>
+                        <img src="https://wasp-lang.dev/img/wasp-compilation.png" alt=""/>
+                    </div>
+                </section>
             </main>
         </Layout>
     );
