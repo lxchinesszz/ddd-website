@@ -3,8 +3,8 @@ module.exports = {
     tagline: '天下代码一大抄,抄来抄去有提高,看你会抄不会抄',
     url: 'https://your-docusaurus-test-site.com',
     baseUrl: '/',
-    // onBrokenLinks: 'throw',
-    onBrokenLinks: 'warn',
+    onBrokenLinks: 'throw',
+    // onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'lxchinesszz', // Usually your GitHub org/user name.
@@ -70,15 +70,13 @@ module.exports = {
                     position: 'right',
                 },
                 {
-                    type: 'docsVersionDropdown',
-
-                    //// Optional
-                    position: 'left',
-                    // Add additional dropdown items at the beginning/end of the dropdown.
-                    dropdownItemsBefore: [],
-                    dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
-                    // Do not add the link active class when browsing docs.
+                    label: '新特性',
+                    position: 'left', // or 'right'
                     dropdownActiveClassDisabled: true,
+                    items: [
+                        {to: '/blog', label: '博客'},
+                        {to: '/docs', label: '简书'},
+                    ],
                     docsPluginId: 'default',
                 },
             ],
