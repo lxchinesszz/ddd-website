@@ -78,7 +78,7 @@ function Home() {
             <main>
                 <section className={styles.main}>
                     <div>
-                        <img src={useBaseUrl('img/screenshot.png')} alt=""/>
+                        <img src={useBaseUrl('img/idea_overview_5_1@2x.png')} alt=""/>
                     </div>
                 </section>
                 {features && features.length > 0 && (

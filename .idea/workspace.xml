@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/background8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ddd-website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ddd-website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/idea_overview_2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/idea_overview_5_1@2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2019-05-28-hola.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/2019-05-28-hola.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2019-05-29-hello-world.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/2019-05-29-hello-world.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2019-05-30-welcome.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/2019-05-30-welcome.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/mdx.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mdx.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sidebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/styles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +22,11 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -47,8 +35,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/img" />
@@ -81,8 +69,23 @@
       <option name="presentableId" value="Default" />
       <updated>1609692031240</updated>
       <workItem from="1609692032403" duration="20000" />
-      <workItem from="1609692056253" duration="2004000" />
+      <workItem from="1609692056253" duration="2592000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1609694151065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609694151065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1609694182232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609694182232</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +102,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
