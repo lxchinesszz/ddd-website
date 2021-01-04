@@ -3,7 +3,8 @@ module.exports = {
     tagline: '天下代码一大抄,抄来抄去有提高,看你会抄不会抄',
     url: 'https://your-docusaurus-test-site.com',
     baseUrl: '/',
-    onBrokenLinks: 'throw',
+    // onBrokenLinks: 'throw',
+    onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'lxchinesszz', // Usually your GitHub org/user name.
