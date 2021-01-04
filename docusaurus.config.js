@@ -48,7 +48,8 @@ module.exports = {
             isCloseable: true, // Defaults to `true`.
         },
         navbar: {
-            style: 'dark',
+            // 这里仅仅定义navbar的颜色,如果定义这个,全局的就对navbar失效
+            // style: 'dark',
             //自动隐藏导航栏
             hideOnScroll: true,
             title: '领域驱动落地',
