@@ -23,7 +23,6 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'cli', label: 'CLI', position: 'left'},
         {
           href: 'https://blog.springlearn.cn/',
           label: '作者博客',
@@ -107,6 +106,7 @@ module.exports = {
     [
       '@docusaurus/plugin-sitemap',
       {
+        id: 'plugin-sitemap',
         cacheTime: 600 * 1000, // 600 sec - cache purge period
         changefreq: 'weekly',
         priority: 0.5,
