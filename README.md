@@ -1,3 +1,9 @@
+---
+id: readme
+slug: /
+sidebar_label: 简介
+---
+
 # Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.

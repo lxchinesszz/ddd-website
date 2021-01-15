@@ -95,7 +95,7 @@ function Home() {
 
                 <section className={styles.framework}>
                     {/*hero shadow--lw*/}
-                    <div className="hero hero--primary">
+                    <div className={styles.processBanner}>
                         <div className="container">
                             <h1>分层架构</h1>
                             <p className="hero__subtitle">明确业务分层架构,定义领域模型,编程不迷茫</p>
@@ -105,7 +105,23 @@ function Home() {
                 {/*机构图*/}
                 <section className={styles.framework}>
                     <div>
-                        <img src="https://wasp-lang.dev/img/wasp-compilation.png" alt=""/>
+                        <img src="https://img.springlearn.cn/blog/learn_1610273706000.png" alt="单体应用分层"/>
+                    </div>
+                </section>
+
+                <section className={styles.framework}>
+                    {/*hero shadow--lw*/}
+                    <div className={styles.ideaJavaModelBanner}>
+                        <div className="container">
+                            <h1>数据模型</h1>
+                            <p className="hero__subtitle">迪米特法则: 不要和陌生人说话,数据模型之间保持最少的了解</p>
+                        </div>
+                    </div>
+                </section>
+                {/*模型图*/}
+                <section className={styles.framework}>
+                    <div>
+                        <img src="https://img.springlearn.cn/blog/learn_1610273619000.png" alt="数据模型定义"/>
                     </div>
                 </section>
             </main>

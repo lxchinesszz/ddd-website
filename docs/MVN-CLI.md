@@ -1,8 +1,7 @@
 ---
-id: doc1
-title: Style Guide
-sidebar_label: Style Guide
-slug: /
+id: mvn-cli
+title: 自动化构建
+sidebar_label: 自动化构建
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

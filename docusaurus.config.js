@@ -1,8 +1,9 @@
 module.exports = {
     title: '领域驱动的理想国',
     tagline: '天下代码一大抄,抄来抄去有提高,看你会抄不会抄',
-    url: 'https://your-docusaurus-test-site.com',
+    url: 'https://ddd.springlearn.cn',
     baseUrl: '/',
+    //当 Docusaurus 检测到任何无效的链接时所应采取的行为。'ignore' | 'log' | 'warn' | 'error' | 'throw'
     onBrokenLinks: 'throw',
     // onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
@@ -10,9 +11,10 @@ module.exports = {
     organizationName: 'lxchinesszz', // Usually your GitHub org/user name.
     projectName: 'ddd-website', // Usually your repo name.
     themeConfig: {
+        defaultLanguage: 'java',
         colorMode: {
             // "light" | "dark"
-            defaultMode: 'light',
+            defaultMode: 'dark',
             disableSwitch: false,
             // Should we use the prefers-color-scheme media-query,
             // using user system preferences, instead of the hardcoded defaultMode
@@ -61,8 +63,14 @@ module.exports = {
                 {
                     to: 'docs/',
                     activeBasePath: 'docs',
-                    label: 'Docs',
+                    label: '代码片段',
                     position: 'left',
+                },
+                {
+                    to: 'docs/mvn-cli',
+                    label: 'CLI',
+                    position: 'left',
+                    activeBasePath: 'cli'
                 },
                 {to: 'blog', label: 'Blog', position: 'left'},
                 {
