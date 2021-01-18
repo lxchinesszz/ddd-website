@@ -4,199 +4,106 @@ title: 自动化构建
 sidebar_label: 自动化构建
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
-
-## Markdown Syntax
-
-To serve as an example page when styling markdown based Docusaurus sites.
-
-## Headers
-
-# H1 - Create the best documentation
-
-## H2 - Create the best documentation
-
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
-
----
-
-## Emphasis
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item
-    - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-    1. Ordered sub-list
-1. And another item.
-
-* Unordered list can use asterisks
-
-- Or minuses
-
-+ Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com/)
-
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
-[1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
-Images from any folder can be used by providing path to file. Path should be relative to markdown file.
-
-![img](../static/img/logo.svg)
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
-```
-
----
-
-## Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
-
-:::note
-
-This is a note
-
-:::
 
 :::tip
 
-This is a tip
+JMVN-CLI 快速构建Maven多模块应用
 
 :::
 
-:::important
 
-This is important
+# 一、介绍 | Introduce
 
-:::
+![](https://img.springlearn.cn/blog/learn_1610971978000.png)
 
-:::caution
+快速构建支持SpringBoot的Maven多模块应用,启动及快速打包部署
 
-This is a caution
+# 二、快速安装
 
-:::
+```
+➜ npm i jmvn -g
+```
 
-:::warning
+# 三、快速构建
 
-This is a warning
+## 3.1 命令行构建项目
 
-:::
+![](https://img.springlearn.cn/blog/learn_1610973272000.png)
+
+```
+Build: ascm/ascm-web/src/main/java/com/idea/ascm/web/
+Build: ascm/ascm-web/src/main/resources/
+Build: Add SpringBoot Config:ascm/ascm-web/src/main/resources/application.yml
+Build: ascm/ascm-service/src/main/java/com/idea/ascm/service/
+Build: ascm/ascm-domain/src/main/java/com/idea/ascm/domain/
+Build: ascm/ascm-dal/src/main/java/com/idea/ascm/dal/
+Build: ascm/ascm-integration/src/main/java/com/idea/ascm/integration/
+Build: ascm/ascm-config/src/main/java/com/idea/ascm/config/
+Build: ascm/ascm-common/src/main/java/com/idea/ascm/common/
+   __  ____   ___  __    _______   ____
+  /  |/  / | / / |/ /___/ ___/ /  /  _/
+ / /|_/ /| |/ /    /___/ /__/ /___/ /
+/_/  /_/ |___/_/|_/    \___/____/___/  Application ascm Build Success
+ - JMVN CLI v1.0.3
+┌────────┬─────────┬──────────┬────────────────┬─────────────┬────────┐
+│ 项目名 │ 作者    │ 项目版本 │ SpringBoot版本 │ 描述        │ 端口号 │
+├────────┼─────────┼──────────┼────────────────┼─────────────┼────────┤
+│ ascm   │ mvn-cli │ 1.0.0    │ 2.3.1.RELEASE  │ description │ 8082   │
+└────────┴─────────┴──────────┴────────────────┴─────────────┴────────┘
+```
+
+## 3.2 idea直接打开
+
+- 可以点击 `run main` 启动
+  ![](https://img.springlearn.cn/blog/learn_1610973142000.png)
+
+## 3.3 打包jar文件部署
+
+- 输入 `mvn package` 快速打包构建部署
+
+```
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] ascm ............................................... SUCCESS [  0.364 s]
+[INFO] ascm-common ........................................ SUCCESS [  0.842 s]
+[INFO] ascm-integration ................................... SUCCESS [  0.040 s]
+[INFO] ascm-dal ........................................... SUCCESS [  0.038 s]
+[INFO] ascm-domain ........................................ SUCCESS [  0.038 s]
+[INFO] ascm-service ....................................... SUCCESS [  0.037 s]
+[INFO] ascm-web ........................................... SUCCESS [  1.274 s]
+[INFO] ascm-config ........................................ SUCCESS [  0.038 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.292 s
+[INFO] Finished at: 2021-01-18T20:36:03+08:00
+[INFO] Final Memory: 46M/356M
+[INFO] ------------------------------------------------------------------------
+
+```
+
+- 进入 `web/target` 目录直接运行启动 `java -jar ascm-web.jar`
+
+# 四、发布记录 | Release record
+
+**1.0.1**
+
+- 构建服务
+- 支持注册命令
+
+**1.0.2**
+
+- 代码精简及优化
+- 版本检测及升级
+
+**1.0.3**
+
+- fix端口号映射问题
+
+# 五、定制 | Custom
+
+欢迎感兴趣的小伙伴一起参与开发, 🚀 `call me！`
+
+- 微信: `lxchinesszz`
+- 邮箱: `lxchinesszz@163.com`
