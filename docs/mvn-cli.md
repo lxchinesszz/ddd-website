@@ -1,7 +1,6 @@
 ---
-id: mvn-cli
-title: 自动化构建
-sidebar_label: 自动化构建
+id: 'mvn-cli'
+sidebar_label: 简介
 ---
 
 
@@ -11,22 +10,26 @@ JMVN-CLI 快速构建Maven多模块应用
 
 :::
 
-
-# 一、介绍 | Introduce
+## 一、介绍 | Introduce
 
 ![](https://img.springlearn.cn/blog/learn_1610971978000.png)
 
 快速构建支持SpringBoot的Maven多模块应用,启动及快速打包部署
 
-# 二、快速安装
+
+
+## 二、快速安装 | Fast installation
 
 ```
 ➜ npm i jmvn -g
 ```
 
-# 三、快速构建
+`NPM` 仓库: `https://www.npmjs.com/package/jmvn`
 
-## 3.1 命令行构建项目
+
+## 三、快速构建 | To quickly build
+
+### 3.1 命令行构建项目 | Command line build
 
 ![](https://img.springlearn.cn/blog/learn_1610973272000.png)
 
@@ -52,12 +55,12 @@ Build: ascm/ascm-common/src/main/java/com/idea/ascm/common/
 └────────┴─────────┴──────────┴────────────────┴─────────────┴────────┘
 ```
 
-## 3.2 idea直接打开
+### 3.2 idea直接打开 | Use idea to open
 
 - 可以点击 `run main` 启动
   ![](https://img.springlearn.cn/blog/learn_1610973142000.png)
 
-## 3.3 打包jar文件部署
+### 3.3 打包jar文件部署 | Package JAR deployment
 
 - 输入 `mvn package` 快速打包构建部署
 
@@ -85,7 +88,7 @@ Build: ascm/ascm-common/src/main/java/com/idea/ascm/common/
 
 - 进入 `web/target` 目录直接运行启动 `java -jar ascm-web.jar`
 
-# 四、发布记录 | Release record
+## 四、发布记录 | Release record
 
 **1.0.1**
 
@@ -101,7 +104,11 @@ Build: ascm/ascm-common/src/main/java/com/idea/ascm/common/
 
 - fix端口号映射问题
 
-# 五、定制 | Custom
+**1.0.4**
+
+- 优化版本检测,在网络差场景的用户体验
+
+## 五、定制 | Custom
 
 欢迎感兴趣的小伙伴一起参与开发, 🚀 `call me！`
 

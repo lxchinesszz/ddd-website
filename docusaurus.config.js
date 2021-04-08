@@ -1,5 +1,5 @@
 module.exports = {
-    title: '领域驱动的理想国',
+    title: '万物皆对象',
     tagline: '天下代码一大抄,抄来抄去有提高,看你会抄不会抄',
     url: 'https://ddd.springlearn.cn',
     baseUrl: '/',
@@ -14,7 +14,7 @@ module.exports = {
         defaultLanguage: 'java',
         colorMode: {
             // "light" | "dark"
-            defaultMode: 'dark',
+            defaultMode: 'light',
             disableSwitch: false,
             // Should we use the prefers-color-scheme media-query,
             // using user system preferences, instead of the hardcoded defaultMode
@@ -61,16 +61,19 @@ module.exports = {
             },
             items: [
                 {
-                    to: 'docs/',
-                    activeBasePath: 'docs',
+                    to: 'docs/CodeSnippet/',
                     label: '代码片段',
                     position: 'left',
                 },
                 {
-                    to: 'docs/mvn-cli',
+                    to: 'docs/test-readme',
+                    label: '单测标准',
+                    position: 'left',
+                },
+                {
+                    to: 'docs/mvn-cli/',
                     label: 'CLI',
                     position: 'left',
-                    activeBasePath: 'cli'
                 },
                 {to: 'blog', label: 'Blog', position: 'left'},
                 {
@@ -137,6 +140,7 @@ module.exports = {
         },
         prism: {
             theme: require('prism-react-renderer/themes/github'),
+            // theme: require('prism-react-renderer/themes/dracula'),
             darkTheme: require('prism-react-renderer/themes/dracula'),
         },
     },
@@ -147,6 +151,8 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
+                    path:'docs',
+                    routeBasePath: 'docs',
                     editUrl:
                         'https://github.com/facebook/docusaurus/edit/master/website/',
                 },
@@ -174,4 +180,5 @@ module.exports = {
             },
         ],
     ],
+    themes: ['@docusaurus/theme-live-codeblock'],
 };

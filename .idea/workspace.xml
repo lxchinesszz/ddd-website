@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="" />
+    <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/domain-standard.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli_sidebars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/enhance/dismantling.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/enhance/distinct.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/enhance/group.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/enhance/mapDistinct.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/enhance/mapToList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/enhance/mapToMergeList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/enhance/mapToNonNullSum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/enhance/post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/mvn-cli/mvn-cli-custom.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/mvn-cli/mvn-cli-design.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/mvn-cli/mvn-cli-install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/mvn-cli/mvn-cli-setting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/mvn-cli/use/mvn-cli-use.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test-readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/junit-api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/lazy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/mockito-api.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/spring-boot-test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/test-async.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/test-cost.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/test-data-isolation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/test-inject.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/test-message.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/test-source-read.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/test-source-runner.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/MVN-CLI.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mvn-cli.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/readme.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/readme.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/async_layout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/declarative.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/flatter_view.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mesh-example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/recycling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +61,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mZD4nSKSREWQTR4RARGNajvWhs" />
   <component name="ProjectLevelVcsManager">
@@ -32,7 +85,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -41,19 +94,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs" />
-      <recent name="$PROJECT_DIR$/cli" />
+      <recent name="$PROJECT_DIR$/docs/test" />
+      <recent name="$PROJECT_DIR$/docs/enhance" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/docs/readme" />
-      <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/docs/mvn-cli/use" />
+      <recent name="$PROJECT_DIR$/docs/mvn-cli" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs" />
-      <recent name="$PROJECT_DIR$/static/img" />
-      <recent name="$PROJECT_DIR$/static/home" />
+      <recent name="$PROJECT_DIR$/mvn-cli" />
+      <recent name="$PROJECT_DIR$/docs/mvn-cli" />
+      <recent name="$PROJECT_DIR$/docs/readme" />
+      <recent name="$PROJECT_DIR$/cli/mvn-cli" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -96,9 +151,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.serve" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.clear" />
       </list>
     </recent_temporary>
@@ -116,6 +171,16 @@
       <workItem from="1609762663404" duration="8260000" />
       <workItem from="1610202500709" duration="13432000" />
       <workItem from="1610727479166" duration="121000" />
+      <workItem from="1610974406816" duration="214000" />
+      <workItem from="1611233005791" duration="7372000" />
+      <workItem from="1611297500881" duration="5365000" />
+      <workItem from="1611379921084" duration="5599000" />
+      <workItem from="1611628492109" duration="775000" />
+      <workItem from="1614596505817" duration="569000" />
+      <workItem from="1615046452929" duration="5311000" />
+      <workItem from="1615895438979" duration="3961000" />
+      <workItem from="1617785220888" duration="8979000" />
+      <workItem from="1617846813668" duration="27497000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1609694151065</created>
@@ -194,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610727584129</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="导航栏样式配置">
+      <created>1610974524861</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610974524861</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,5 +290,71 @@
     <MESSAGE value="页面初始化" />
     <MESSAGE value="导航栏样式配置" />
     <option name="LAST_COMMIT_MESSAGE" value="导航栏样式配置" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/plugin-content-docs/lib/index.js</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/plugin-content-docs/lib/versions.js</url>
+          <line>203</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/plugin-content-docs/lib/versions.js</url>
+          <line>124</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/plugin-content-docs/lib/versions.js</url>
+          <line>130</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/plugin-content-docs/lib/versions.js</url>
+          <line>109</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/plugin-content-docs/lib/versions.js</url>
+          <line>87</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/plugin-content-docs/lib/versions.js</url>
+          <line>88</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/core/lib/server/index.js</url>
+          <line>213</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/core/lib/server/index.js</url>
+          <line>107</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/core/lib/server/index.js</url>
+          <line>106</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/core/lib/server/plugins/index.js</url>
+          <line>49</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@docusaurus/core/lib/server/plugins/index.js</url>
+          <line>53</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

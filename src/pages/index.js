@@ -69,6 +69,7 @@ function Home() {
                                 'button button--secondary button--lg',
                                 styles.getStarted,
                             )}
+
                             to={useBaseUrl('docs/')}>
                             Get Started
                         </Link>
