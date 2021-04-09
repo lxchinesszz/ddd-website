@@ -65,7 +65,7 @@
       <recent name="$PROJECT_DIR$/cli/mvn-cli" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -108,9 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.serve" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.clear" />
       </list>
     </recent_temporary>
@@ -137,7 +137,7 @@
       <workItem from="1615046452929" duration="5311000" />
       <workItem from="1615895438979" duration="3961000" />
       <workItem from="1617785220888" duration="8979000" />
-      <workItem from="1617846813668" duration="29506000" />
+      <workItem from="1617846813668" duration="29897000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1609694151065</created>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617890688458</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="单测文档">
+      <created>1617938930475</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617938930476</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

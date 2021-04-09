@@ -4,7 +4,7 @@ module.exports = {
     url: 'https://ddd.springlearn.cn',
     baseUrl: '/',
     //当 Docusaurus 检测到任何无效的链接时所应采取的行为。'ignore' | 'log' | 'warn' | 'error' | 'throw'
-    onBrokenLinks: 'throw',
+    onBrokenLinks: 'ignore',
     // onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
