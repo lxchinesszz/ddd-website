@@ -220,6 +220,5 @@ import org.hamcrest.core.AnyOf;
 
 建议使用 `Idea` 自动创建, 不要手动创建。
 
-```
 ![](../../static/img/junit.gif)
-```
+
