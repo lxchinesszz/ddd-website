@@ -3,8 +3,22 @@ id: test-async
 title: ⑤ 异步验证
 ---
 
-异步任务如果主线程结束,后台线程就结束了
+export const Highlight = ({children, color}) => (
+<span
+style={{
+backgroundColor: color,
+borderRadius: '5px',
+color: '#fff',
+padding: '0.2rem',
+fontWeight:'bold'
+}}>
+{children}
+</span>
+);
 
+:::danger 请听题
+对于下面这段代码你觉得单测能通过吗?
+:::
 
 ```java title="异步场景"
     @Test
@@ -15,7 +29,8 @@ title: ⑤ 异步验证
             @Override
             public void run() {
                 Thread.sleep(5000);
-                System.out.println("任务执行结束");
+                Object obj = null;
+                System.out.println(obj.toString());
             }
         });
         System.out.println("单侧结束");
@@ -35,7 +50,8 @@ title: ⑤ 异步验证
             @Override
             public void run() {
                 Thread.sleep(5000);
-                System.out.println("任务执行结束");
+                Object obj = null;
+                System.out.println(obj.toString());
             }
         });
         System.out.println("单侧结束");
@@ -53,7 +69,8 @@ title: ⑤ 异步验证
             @Override
             public void run() {
                 Thread.sleep(5000);
-                System.out.println("任务执行结束");
+                Object obj = null;
+                System.out.println(obj.toString());
             }
         });
         System.out.println("单侧结束");
@@ -65,6 +82,11 @@ title: ⑤ 异步验证
 ## 二、基于上面两种配合JUnit定制
 
 ### 2.1 使用演示
+
+
+
+
+📢 注意这里的 <Highlight color="#e6a23c">@Timed</Highlight> 原生是不具备这个能力的,要基于JUnit进行扩展。
 
 ```java {2} title="@Timed 灵活控制时间"
     @Test

@@ -3,7 +3,10 @@ id: junit-api
 title: JUnit API
 ---
 
-只打印的单测是没有意义的。正确使用单测工具, 提高单测质量。
+:::tip JUnit: `Java` + `Unit`
+只打印的单测是没有意义的,正确使用单测工具, 提高单测质量。
+:::
+
 
 
 
@@ -217,4 +220,6 @@ import org.hamcrest.core.AnyOf;
 
 建议使用 `Idea` 自动创建, 不要手动创建。
 
+```
 ![](../../static/img/junit.gif)
+```

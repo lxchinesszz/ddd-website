@@ -3,7 +3,7 @@ id: test-technology
 title: 技术选型
 ---
 
-### JUnit 
+### 一、JUnit 
 
 export const Highlight = ({children, color}) => (
 <span
@@ -37,7 +37,7 @@ padding: '0.2rem',
 </dependency>
 ```
 
-### Mockito
+### 二、Mockito
 
 [Mockito](https://site.mockito.org/) 是一个非常不错的模拟框架。它使您可以使用干净简单的API编写漂亮的测试。Mockito不会给您带来麻烦，因为这些测试的可读性很强，并且会产生清晰的验证错误。
 
@@ -47,7 +47,6 @@ padding: '0.2rem',
 mockito-core只包含mockito类，而mockito-all包含mockito类以及一些依赖项，其中一个是hamcrest。
 
 实际上mockito-all已停产according to the mockito website
-
 
 ```xml
 <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
@@ -71,4 +70,17 @@ mockito-core只包含mockito类，而mockito-all包含mockito类以及一些依�
         System.out.println(mockList.get(0));
         Assert.assertSame(12,mockList.get(0));
     }
+```
+
+## 三、JMockData
+
+`JMockData` 是一款国人开发用来生成模拟数据的工具,对象太复杂,模拟数据复制太难? 一行代码搞定。
+
+```xml 
+   <dependency>
+       <groupId>com.github.jsonzou</groupId>
+       <artifactId>jmockdata</artifactId>
+       <version>4.3.0</version>
+       <scope>test</scope>
+   </dependency>
 ```

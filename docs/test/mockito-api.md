@@ -103,7 +103,7 @@ MockitoEmp mock = Mockito.mock(MockitoEmp.class);
 调用getAge() 的时候竟然也是假数据。
 :::
 
-```java {21,23} title="基于注解和@Before自动声明"
+```java {19,22} title="基于注解和@Before自动声明"
 
 public class MockitoTest {
 
@@ -123,6 +123,7 @@ public class MockitoTest {
     @Test
     public void testMock() {
         Mockito.doReturn("Mock数据").when(mock).getName();
+        //等价于Mockito.when(mock.getName()).thenReturn("Mock数据");
         // Mock数据
         Assert.assertSame("Mock数据", mock.getName());
         // getAge() 方法没有用Mockito声明动作, 应该是多少呢?

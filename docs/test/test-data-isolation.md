@@ -31,6 +31,11 @@ padding: '0.2rem',
 - @Rollback(false) 如果想某个方法事务不回滚,可以单独在方法上设置。<Highlight color="#25c2a0">【方法级别>全局】</Highlight>
 :::
 
+
+下面这两个方法
+- 第一个方法因为是使用测试全局事务配置,所以默认是回滚。
+- 第二个方法因为使用了方法事务配置,所以会忽略全局配置,然后提交事务。
+
 ```java title="单测引导类配置"
 @Slf4j
 @ActiveProfiles({"local"})

@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="忽略异常">
-      <change afterPath="$PROJECT_DIR$/blog/domain-thinking.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/test/test-jmockdata.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/test/test-readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/test/test-standard.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/junit-success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/junit.gif" afterDir="false" />
+    <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="单元测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2019-05-28-hola.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2019-05-29-hello-world.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2019-05-30-welcome.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/domain-standard.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/domain-standard.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/doc1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/doc1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/doc3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/doc3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/doc4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/doc4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/doc5.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/doc5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/mvn-cli.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mvn-cli.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/mvn-cli/mvn-cli-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mvn-cli/mvn-cli-design.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/test-readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/test/junit-api.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/junit-api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/mockito-api.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/mockito-api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/test-async.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/test-async.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/test-cost.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/test-cost.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/test-data-isolation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/test-data-isolation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/test-message.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/test-message.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/test/test-readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/test-readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/test/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sidebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +73,7 @@
       <recent name="$PROJECT_DIR$/docs/readme" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -129,9 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.serve" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.clear" />
       </list>
     </recent_temporary>
@@ -158,7 +145,7 @@
       <workItem from="1615046452929" duration="5311000" />
       <workItem from="1615895438979" duration="3961000" />
       <workItem from="1617785220888" duration="8979000" />
-      <workItem from="1617846813668" duration="56399000" />
+      <workItem from="1617846813668" duration="61876000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1609694151065</created>
@@ -265,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617939383884</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="单元测试">
+      <created>1618046006706</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618046006706</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +284,8 @@
     <MESSAGE value="导航栏样式配置" />
     <MESSAGE value="单测文档" />
     <MESSAGE value="忽略异常" />
-    <option name="LAST_COMMIT_MESSAGE" value="忽略异常" />
+    <MESSAGE value="单元测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="单元测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
