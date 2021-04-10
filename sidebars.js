@@ -70,13 +70,13 @@ module.exports = {
     test: [
         {
             type: 'doc',
-            id: 'test-readme',
+            id: 'test/test-readme',
         },
         {
             type: 'category',
             label: '技术框架',
             collapsed: true,
-            items: ['test/test-technology', 'test/junit-api', 'test/mockito-api','test/spring-boot-testing']
+            items: ['test/test-technology', 'test/junit-api', 'test/test-jmockdata', 'test/mockito-api', 'test/spring-boot-testing']
         },
         {
             type: 'category',
@@ -87,6 +87,11 @@ module.exports = {
             type: 'category',
             label: '场景分析',
             items: ['test/test-cost', 'test/test-lazy', 'test/test-data-isolation', 'test/test-message', 'test/test-async']
+        },
+        {
+            type: 'link',
+            label: '单测标准',
+            href: 'test-standard'
         }
     ]
 };

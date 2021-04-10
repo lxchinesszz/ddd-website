@@ -7,7 +7,7 @@ module.exports = {
     onBrokenLinks: 'ignore',
     // onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
+    favicon: 'https://img.springlearn.cn/blog/learn_1618020486000.png',
     organizationName: 'lxchinesszz', // Usually your GitHub org/user name.
     projectName: 'ddd-website', // Usually your repo name.
     themeConfig: {
@@ -66,14 +66,18 @@ module.exports = {
                     position: 'left',
                 },
                 {
-                    to: 'docs/test-readme',
-                    label: '单测标准',
+                    to: 'docs/test/test-readme',
+                    label: '单元测试',
                     position: 'left',
                 },
+                // {
+                //     to: 'docs/mvn-cli/',
+                //     label: 'CLI',
+                //     position: 'left',
+                // },
                 {
-                    to: 'docs/mvn-cli/',
-                    label: 'CLI',
-                    position: 'left',
+                    href: 'https://danchuang.yuque.com/nlmewm/tsxuer/vptnb4',
+                    label: 'CLI'
                 },
                 {to: 'blog', label: 'Blog', position: 'left'},
                 {
@@ -81,16 +85,16 @@ module.exports = {
                     label: '作者博客',
                     position: 'right',
                 },
-                {
-                    label: '新特性',
-                    position: 'left', // or 'right'
-                    dropdownActiveClassDisabled: true,
-                    items: [
-                        {to: '/blog', label: '博客'},
-                        {to: '/docs', label: '简书'},
-                    ],
-                    docsPluginId: 'default',
-                },
+                // {
+                //     label: '新特性',
+                //     position: 'left', // or 'right'
+                //     dropdownActiveClassDisabled: true,
+                //     items: [
+                //         {to: '/blog', label: '博客'},
+                //         {to: '/docs', label: '简书'},
+                //     ],
+                //     docsPluginId: 'default',
+                // },
             ],
         },
         footer: {

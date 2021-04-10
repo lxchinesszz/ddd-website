@@ -21,7 +21,11 @@ padding: '0.2rem',
 
 [JUnit](https://junit.org/junit5/)目标是为JVM上的开发人员端测试创建最新的基础。这包括关注Java 8及更高版本，以及启用许多不同的测试样式。
 
-强制使用 `Junit3` 以上版本, 目前最新的版本是 <Highlight color="#25c2a0">Junit5</Highlight>, 常用的是 `JUnit4`,建议使用<Highlight color="#25c2a0">JUnit4</Highlight>
+强制使用 `Junit3` 以上版本, 目前最新的版本是 `Junit5`, 常用的是 `JUnit4`,建议使用<Highlight color="#25c2a0">JUnit4</Highlight>
+或者使用<Highlight color="#25c2a0">JUnit5</Highlight>。
+
+这里有一个小坑。如果SpringBoot2.1.x版本依赖的Junit4。SpringBoot应用要通过 @RunWith + @SpringBootTest。
+在SpringBoot后续的版本依赖JUnit5,直接使用@SpringBootTest即可。
 
 ```xml
 
