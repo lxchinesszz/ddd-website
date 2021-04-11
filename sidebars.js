@@ -81,7 +81,7 @@ module.exports = {
         {
             type: 'category',
             label: '源码分析',
-            items: ['test/test-source-read', 'test/test-source-runner', 'test/test-inject']
+            items: ['test/test-source-read', 'test/test-source-runner', 'test/test-inject','test/test-source-transactional']
         },
         {
             type: 'category',
@@ -89,9 +89,11 @@ module.exports = {
             items: ['test/test-cost', 'test/test-lazy', 'test/test-data-isolation', 'test/test-message', 'test/test-async']
         },
         {
-            type: 'link',
+            type: 'category',
             label: '单测标准',
-            href: 'test-standard'
+            items: ['test/test-standard-named', 'test/test-standard-assert',
+                'test/test-standard-limit', 'test/test-standard-scope',
+                'test/test-standard-impact-scope','test/test-standard-result']
         }
     ]
 };

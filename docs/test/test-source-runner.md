@@ -3,8 +3,21 @@ id: test-source-runner
 title: ② 如何知道是否依赖Spring容器
 ---
 
+export const Version = ({children}) => (
+<span
+style={{
+backgroundColor: '#f9f2f4',
+borderRadius: '5px',
+color: '#c92f56',
+padding: '0.2rem',
+fontWeight:'bold'
+}}>
+{children}
+</span>
+);
+
 默认使用 `BlockJUnit4ClassRunner` 来进行运行。即不依赖容器。
-假如说如果需要容器怎么办呢 ?
+假如说如果需要容器怎么办呢 ? <Version>基于SpringBoot 2.1.x版本分析</Version>
 
 ```java
 @RunWith(SpringRunner.class)

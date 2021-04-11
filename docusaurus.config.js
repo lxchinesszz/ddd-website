@@ -44,10 +44,10 @@ module.exports = {
         announcementBar: {
             id: 'support_us', // Any value that will identify this message.
             content:
-                '我们正在修改该文档,请填写你的建议 <a target="_blank" rel="noopener noreferrer" href="#">链接</a>',
+                '我们正在收集关于单元测试的问卷,请填写你的建议 <a target="_blank" rel="noopener noreferrer" href="https://wj.qq.com/s2/8308398/e9ff/">链接</a>',
             backgroundColor: '#ebebeb', // Defaults to `#fff`.
             textColor: '#091E42', // Defaults to `#000`.
-            isCloseable: true, // Defaults to `true`.
+            isCloseable: false, // Defaults to `true`.
         },
         navbar: {
             // 这里仅仅定义navbar的颜色,如果定义这个,全局的就对navbar失效

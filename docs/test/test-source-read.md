@@ -3,7 +3,20 @@ id: test-source-read
 title: ① 谁在调用JUnit
 ---
 
-当点击了执行单例,发生了什么事情?
+export const Version = ({children}) => (
+<span
+style={{
+backgroundColor: '#f9f2f4',
+borderRadius: '5px',
+color: '#c92f56',
+padding: '0.2rem',
+fontWeight:'bold'
+}}>
+{children}
+</span>
+);
+
+当点击了执行单例,发生了什么事情? <Version>基于SpringBoot 2.1.x版本分析</Version>
 
 ![](https://img.springlearn.cn/blog/learn_1617790044000.png)
 
