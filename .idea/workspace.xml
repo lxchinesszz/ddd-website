@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="单元测试终版1.1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+    <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="单元测试终版1.2">
+      <change beforePath="$PROJECT_DIR$/docs/test/spring-boot-test.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/spring-boot-test.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +137,7 @@
       <workItem from="1615046452929" duration="5311000" />
       <workItem from="1615895438979" duration="3961000" />
       <workItem from="1617785220888" duration="8979000" />
-      <workItem from="1617846813668" duration="78400000" />
+      <workItem from="1617846813668" duration="78731000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1609694151065</created>
@@ -281,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618132453165</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="单元测试终版1.2">
+      <created>1618140700313</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1618140700313</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +314,8 @@
     <MESSAGE value="单元测试" />
     <MESSAGE value="单元测试终版1.0" />
     <MESSAGE value="单元测试终版1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="单元测试终版1.1" />
+    <MESSAGE value="单元测试终版1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="单元测试终版1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

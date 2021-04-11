@@ -3,8 +3,11 @@ id: spring-boot-testing
 title: SpringBoot Testing
 ---
 
+![](https://img.springlearn.cn/blog/learn_1618140868000.png)
+
 前面我们对Mockito的用法有了一个了解,这里告诉大家一个好消息,SpringBoot已经帮我们继承了
 这些框架,而且提供了更加简单好用的API。
+
 
 ## 一、Mockito加载方式
 
