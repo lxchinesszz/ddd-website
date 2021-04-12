@@ -63,7 +63,7 @@ Web 应用中的单元测试更加重要，在 Web 产品快速迭代的时期�
 
 <Highlight color="#ff603f">你品你细品</Highlight>
 
-![](https://img.springlearn.cn/blog/learn_1618050237000.png)
+![](https://img.springlearn.cn/blog/learn_1618206722000.png)
 
 作为底层开发人员, 我们清晰每一行代码, 也就是最小执行单元。哪里容易出现错误，这次改造涉及到了那些代码。一线开发人员一定是最清楚的人,没有之一。
 
