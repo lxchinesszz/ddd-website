@@ -155,7 +155,8 @@ values={[
 <TabItem value="IT">系统集成测试</TabItem>
 </Tabs>
 
-![](https://img.springlearn.cn/blog/learn_1618050237000.png)
+
+![](https://img.springlearn.cn/blog/learn_1618206722000.png)
 #### 2.2.1 UT由开发同学保证
 
 开发同学进行最小单元测试, 数据如何进行衡量呢?
