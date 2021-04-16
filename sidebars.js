@@ -76,7 +76,7 @@ module.exports = {
             type: 'category',
             label: '技术框架',
             collapsed: true,
-            items: ['test/test-technology', 'test/junit-api', 'test/test-jmockdata', 'test/mockito-api', 'test/spring-boot-testing']
+            items: ['test/test-technology', 'test/junit-api', 'test/test-jmockdata', 'test/mockito-api', 'test/spring-boot-testing','test/test-warn']
         },
         {
             type: 'category',
