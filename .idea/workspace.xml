@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="单元测试终版1.4">
-      <change afterPath="$PROJECT_DIR$/docs/test/test-warn.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test/test-practice.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/anime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/anime/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/feature/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/doc1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/doc1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sidebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/helloReact.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/anime" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -53,11 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/anime" />
       <recent name="$PROJECT_DIR$/docs/test" />
       <recent name="$PROJECT_DIR$/blog" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/docs/enhance" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/test" />
@@ -141,7 +150,12 @@
       <workItem from="1617785220888" duration="8979000" />
       <workItem from="1617846813668" duration="79478000" />
       <workItem from="1618206245842" duration="2908000" />
-      <workItem from="1618565944535" duration="350000" />
+      <workItem from="1618565944535" duration="365000" />
+      <workItem from="1619147088308" duration="6999000" />
+      <workItem from="1619945763865" duration="4164000" />
+      <workItem from="1620002249343" duration="3568000" />
+      <workItem from="1620047870929" duration="739000" />
+      <workItem from="1620048784273" duration="8176000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1609694151065</created>
@@ -311,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618210809831</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="单元测试终版1.4">
+      <created>1618566301028</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1618566301028</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

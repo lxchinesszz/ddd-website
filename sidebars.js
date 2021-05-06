@@ -1,4 +1,4 @@
-// noinspection NonAsciiCharacters
+// 导航菜单栏;
 module.exports = {
     docs: [
         {
@@ -76,12 +76,12 @@ module.exports = {
             type: 'category',
             label: '技术框架',
             collapsed: true,
-            items: ['test/test-technology', 'test/junit-api', 'test/test-jmockdata', 'test/mockito-api', 'test/spring-boot-testing','test/test-warn']
+            items: ['test/test-technology', 'test/junit-api', 'test/test-jmockdata', 'test/mockito-api', 'test/spring-boot-testing', 'test/test-warn']
         },
         {
             type: 'category',
             label: '源码分析',
-            items: ['test/test-source-read', 'test/test-source-runner', 'test/test-inject','test/test-source-transactional']
+            items: ['test/test-source-read', 'test/test-source-runner', 'test/test-inject', 'test/test-source-transactional']
         },
         {
             type: 'category',
@@ -93,7 +93,12 @@ module.exports = {
             label: '单测标准',
             items: ['test/test-standard-named', 'test/test-standard-assert',
                 'test/test-standard-limit', 'test/test-standard-scope',
-                'test/test-standard-impact-scope','test/test-standard-result']
-        }
+                'test/test-standard-impact-scope', 'test/test-standard-result']
+        },
+        {
+            type: 'category',
+            label: '实践落地',
+            items: ['test/test-practice']
+        },
     ]
 };

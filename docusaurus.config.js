@@ -2,8 +2,8 @@ module.exports = {
     title: '万物皆对象',
     tagline: '天下代码一大抄,抄来抄去有提高,看你会抄不会抄',
     //当 Docusaurus 检测到任何无效的链接时所应采取的行为。'ignore' | 'log' | 'warn' | 'error' | 'throw'
-    onBrokenLinks: 'ignore',
-    // onBrokenLinks: 'warn',
+    // onBrokenLinks: 'ignore',
+    onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'https://img.springlearn.cn/blog/learn_1618020486000.png',
     url: 'https://ddd.springlearn.cn',
@@ -163,12 +163,12 @@ module.exports = {
             '@docusaurus/plugin-sitemap',
             {
                 id: 'plugin-sitemap',
-                cacheTime: 600 * 1000, // 600 sec - cache purge period
+                // cacheTime: 600 * 1000, // 600 sec - cache purge period
                 changefreq: 'weekly',
                 priority: 0.5,
                 trailingSlash: false,
             },
         ],
     ],
-    themes: ['@docusaurus/theme-live-codeblock'],
+    // themes: ['@docusaurus/theme-live-codeblock']
 };
