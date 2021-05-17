@@ -97,7 +97,7 @@ module.exports = {
         },
         {
             type: 'category',
-            label: '实践落地',
+            label: '案例分享',
             items: ['test/test-practice']
         },
     ]
