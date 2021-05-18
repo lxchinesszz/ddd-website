@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="1. react新特性 + anime">
+    <list default="true" id="04414fb3-3e3e-44cb-91f0-fb6e2b9b8481" name="默认的" comment="1. 单元测试案例分享">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/test/test-practice.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/test/test-practice.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <recent name="$PROJECT_DIR$/docs/readme" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -109,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.serve" />
         <item itemvalue="npm.clear" />
       </list>
@@ -154,6 +156,7 @@
       <workItem from="1620979408185" duration="6393000" />
       <workItem from="1621138033712" duration="2000" />
       <workItem from="1621222461477" duration="12698000" />
+      <workItem from="1621311419965" duration="2129000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1609694151065</created>

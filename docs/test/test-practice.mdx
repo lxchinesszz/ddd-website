@@ -3,26 +3,31 @@ id: test-practice
 title: 难度指数⭐️⭐️⭐️
 ---
 
-![](https://img.springlearn.cn/blog/learn_1620980699000.png)
 
-
-export const Highlight = ({children, color,bg}) => (
+export const Highlight = ({children, color, bg}) => (
     <span
         style={{
             backgroundColor: bg,
             borderRadius: '5px',
             color: color,
             padding: '0.2rem',
-            fontWeight:'bold'
+            fontWeight: 'bold'
         }}>
 {children}
 </span>
 );
 
+import {Parallax,OverPack} from 'rc-scroll-anim';
+import QueueAnim from 'rc-queue-anim';
+
+<Parallax
+    animation={{scale: 1, width: '50%'}} replay={true}
+    style={{transform: 'scale(0)', margin: '10px auto'}}
+>
+    <img src='https://img.springlearn.cn/blog/learn_1620980699000.png'/>
+</Parallax>
+
 ## 前言
-
-
-
 
 :::info **单测覆盖率为应用质量指标化提供解决方案**
 
@@ -210,16 +215,36 @@ public class NoticeOrderControllerTest extends BaseApplicationTest {
 
 #### 2.3.1 业务说明
 
-1. 创建一个包含一个商品的，草稿状态的临时采购单【验证保存接口】
-2. 模拟用户对采购单的商品进行二次修改【验证修改逻辑接口】
-2. 模拟用户对草稿的采购单进行最终审核操作【验证审核接口】
-3. 模拟对已经审核的采购单,添加不同类型货通知单【验证不同单据到货通知单的校验接口】
-4. 对已经创建的到货通知单进行人工关闭【验证关闭】
-5. 关闭所有到货通知单【验证关闭】
-6. 关闭采购单【验证采购关闭】
+<OverPack style={{overflow: 'hidden', height: 200}} playScale={0.2}>
+    <QueueAnim key="queue"
+               leaveReverse
+               style={{float:'left', position: 'relative'}}
+    >
+        <div key='a' style={{fontStyle:'bold',lineHeight: '2em',fontFamily:'Arial, Helvetica, sans-serif;'}}>
+            1. 创建一个包含一个商品的，草稿状态的临时采购单【验证保存接口】
+        </div>
+        <div key='b'>
+            2. 模拟用户对采购单的商品进行二次修改【验证修改逻辑接口】
+        </div>
+        <div key='c'>
+            3. 模拟对已经审核的采购单,添加不同类型货通知单【验证不同单据到货通知单的校验接口】
+        </div>
+        <div key='d'>
+            4. 对已经创建的到货通知单进行人工关闭【验证关闭】
+        </div>
+        <div key='e'>
+            5. 关闭所有到货通知单【验证关闭】
+        </div>
+        <div key='f'>
+            6. 关闭采购单【验证采购关闭】
+        </div>
+    </QueueAnim>
+</OverPack>
 
 
 <Highlight color="#ffffff" bg="#117eed">做到业务流程闭环</Highlight>
+
+<br/>
 
 ```java
     @Test
@@ -326,5 +351,20 @@ public class TestOrderUtils {
 
 ### 3.2 业务流程要闭环
 
-1. 要么数据执行完成自动回滚
-2. 要么数据不回滚,但是业务流程要闭环。
+
+
+
+
+<OverPack style={{overflow: 'hidden', height: 100}} playScale={0.2}>
+    <QueueAnim key="queue"
+               leaveReverse
+               style={{float:'left', position: 'relative'}}
+    >
+        <div key='a' style={{fontStyle:'bold',lineHeight: '2em',fontFamily:'Arial, Helvetica, sans-serif;'}}>
+            1. 要么数据执行完成自动回滚
+        </div>
+        <div key='b'>
+            2. 要么数据不回滚,但是业务流程要闭环。
+        </div>
+    </QueueAnim>
+</OverPack>
